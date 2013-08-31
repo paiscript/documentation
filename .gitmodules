@@ -1,0 +1,24 @@
+[submodule "pai"]
+	path = pai
+	url = git@git.tsys.no:/christian/pai
+[submodule "pai_plugins/analytics"]
+	path = pai_plugins/analytics
+	url = git@git.tsys.no:/christian/pai/plugins/analytics.git
+[submodule "pai_plugins/html5shiv"]
+	path = pai_plugins/html5shiv
+	url = git@git.tsys.no:/christian/pai/plugins/html5shiv.git
+[submodule "pai_plugins/locale"]
+	path = pai_plugins/locale
+	url = git@git.tsys.no:/christian/pai/plugins/locale.git
+[submodule "pai_plugins/menu"]
+	path = pai_plugins/menu
+	url = git@git.tsys.no:/christian/pai/plugins/menu.git
+[submodule "pai_plugins/phperror"]
+	path = pai_plugins/phperror
+	url = git@git.tsys.no:/christian/pai/plugins/phperror.git
+[submodule "pai_plugins/piwik"]
+	path = pai_plugins/piwik
+	url = git@git.tsys.no:/christian/pai/plugins/piwik.git
+[submodule "pai_plugins/auth"]
+	path = pai_plugins/auth
+	url = git@git.tsys.no:/christian/pai/plugins/auth.git

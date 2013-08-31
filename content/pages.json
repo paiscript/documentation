@@ -1,0 +1,46 @@
+{
+	"404": {
+		"title": "404 - Fant ikke siden",
+		"static": true
+	},
+
+	"index": {
+		"title": "Welcome",
+		"description": "PAI (PHP Ajax Include) is a simple, yet extremely usefull framework for PHP and Javascript.",
+		"keywords": "php,javascript,framework,php framework,javascript framework,opensource"
+	},
+	
+	"getting-started": {
+    "title": "Getting started",
+    "description": "",
+    "keywords": "",
+    "menu": {
+			"main": {
+				"order": 1
+			}
+		}
+	},
+	
+	"functions": {
+    "title": "Functions",
+    "description": "",
+    "keywords": "",
+    "menu": {
+			"main": {
+				"order": 2
+			}
+		}
+	},
+	
+	"plugins": {
+    "title": "Plugins",
+    "description": "",
+    "keywords": "",
+    "menu": {
+			"main": {
+				"order": 3
+			}
+		}
+	}
+	
+}

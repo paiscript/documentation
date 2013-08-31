@@ -1,0 +1,64 @@
+{
+  "ajax": {
+    "useSourceFiles": true,
+    "framework": "jquery"
+  },
+  "content": {
+    "header": {
+      "type": "pagevar",
+      "name": "title",
+      "id": "header"
+    },
+    "page": {
+      "type": "path",
+      "default": "404"
+    },
+    "sidebar": {
+      "type": "map",
+      "default": "default",
+      "map": {
+        "test": ["test"],
+        "default": ["index"]
+      },
+      "exclude": ["form"]
+    },
+    "intervaltest": {
+      "type": "filter",
+      "interval": {
+        "pageChange": false,
+        "frequency": 10,
+        "decay": 1
+      }
+    },
+    "breadcrumb": {
+      "type": "filter"
+    }
+  },
+  "plugins": {
+    "locale": {
+      "status": true,
+      "available": ["en", "no"],
+      "default": "en",
+      "pageinfo": [
+        "title",
+        "description"
+      ]
+    },
+    "menu": {
+      "status": true,
+      "currentClass": "current",
+      "id": "navigation",
+      "list": {
+        "main": {
+          "currentClass": "active"
+        }
+      }
+    },
+    "piwik": {
+      "status": true,
+      "baseUrl": "//analytics.wearelogik.com/",
+      "siteId": 10
+    },
+    "phperror": true
+  }
+}
