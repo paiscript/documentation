@@ -270,6 +270,9 @@
   <span class="c">}</span>
 <span class="c">}</span>
 </code></pre></div>
+      
+      <p><?=__('You can input any piece of information in the pages.json file and read the element by using the following code in the pages file. This will dynamically change the content based on the page your at.');?></p>
+      <pre><code class="php">&lt;?php echo pai_pageInfo('something'); ?&gt;</code></pre>
 
       <p><?=__('No pages requires to be defined in pages.json, but most of the page information like the title, description and keywords are pulled from this file. If you choose to use the menu plugin, then this file and its information is used.');?></p>
 

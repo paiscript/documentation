@@ -48,6 +48,7 @@
       "status": true,
       "currentClass": "current",
       "id": "navigation",
+      "ulClass": "nav navbar-nav",
       "list": {
         "main": {
           "currentClass": "active"
